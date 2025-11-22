@@ -118,9 +118,9 @@ main {
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #f5f5f5, #c1b3ff);
-  color: #050509;
-  border-color: transparent;
+  background: transparent;
+  color: #f5f5f5;
+  border: 1px solid rgba(255,255,255,0.2);
 }
 
 .btn-outline {
@@ -257,3 +257,4 @@ footer {
     gap: 8px;
   }
 }
+
