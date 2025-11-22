@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>À propos – Correspondance au Ciel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="site-wrapper">
+  <header>
+    <div class="navbar">
+      <div class="nav-title">Correspondance au Ciel</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="letters.html">Lettres</a></li>
+          <li><a href="poems.html">Poèmes</a></li>
+          <li><a href="about.html">À propos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page page-center">
+      <h1 class="section-title">À propos</h1>
+      <p class="section-subtitle">
+        Quelques mots sur l’âme qui écrit ici.
+      </p>
+
+      <div class="text-block">
+        <p>
+          Je m’appelle Kessia.<br>
+          Ceci est mon journal intime ouvert, mais toujours sacré.
+        </p>
+        <p>
+          Ici, j’écris à Dieu comme je lui parle dans le secret :<br>
+          avec mes forces, mes failles, mes colères, mes tendresses,<br>
+          mes nuits sans réponses et mes matins de gratitude.
+        </p>
+        <p>
+          Je ne suis pas là pour enseigner, ni pour prouver quoi que ce soit.<br>
+          Je suis là pour laisser une trace de notre conversation –<br>
+          la mienne, et la Sienne.
+        </p>
+        <p>
+          Si tu lis ces lignes, prends ce qui te parle,<br>
+          laisse le reste, et n’oublie pas :<br>
+          Dieu sait lire aussi entre tes silences.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-inner">
+      <div>© <span id="year"></span> Correspondance au Ciel</div>
+      <div>Écrit par une âme en chemin.</div>
+    </div>
+  </footer>
+</div>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
