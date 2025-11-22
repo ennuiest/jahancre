@@ -256,11 +256,13 @@ footer {
     align-items: flex-start;
     gap: 8px;
   }
+
+  .main-nav a {
+    margin: 0 60px;
+    display: inline-block;
 }
-.main-nav a {
-    margin: 0 40px; /* espace égal à gauche et à droite */
-    display: inline-block; /* garantit un bon espacement */
-}
+
+
 
 
 
