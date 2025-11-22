@@ -258,8 +258,9 @@ footer {
   }
 }
 .main-nav a {
-    margin: 0 20px; /* espace égal à gauche et à droite */
+    margin: 0 40px; /* espace égal à gauche et à droite */
     display: inline-block; /* garantit un bon espacement */
 }
+
 
 
