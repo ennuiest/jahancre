@@ -84,18 +84,22 @@ main {
 .page-center {
   max-width: 720px;
 }
-
+/* Réduction du gros titre de la page d’accueil */
 .page-title {
-  font-size: 2.4rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  margin-bottom: 4px;
+  font-size: 1.6rem;     /* ↓ avant : 2.4rem */
+  letter-spacing: 0.03em; /* ↓ avant : 0.08em */
+  margin-bottom: 6px;     /* ↓ un peu */
 }
 
+/* Réduction du sous-titre */
 .page-subtitle {
-  font-size: 1rem;
-  opacity: 0.8;
-  margin-bottom: 32px;
+  font-size: 0.9rem;    /* ↓ avant : 1rem */
+  margin-bottom: 20px;  /* ↓ (optionnel) */
+}
+/* Réduction du bloc d’accueil */
+.home-hero {
+  padding-top: 40px;   /* ↓ avant c’était sûrement plus */
+  padding-bottom: 40px;
 }
 
 .hero-actions {
@@ -261,6 +265,7 @@ footer {
     margin: 0 50px;
     display: inline-block;
 }
+
 
 
 
